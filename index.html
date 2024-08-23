@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Sign-up form start -->
+    <section class="sign-up-form">
+      <div class="container image-container">
+        <div class="header-image"></div>
+      </div>
+      <section class="info-section">
+        <div class="container info-container">
+          <h1 class="heading">Stay updated!</h1>
+          <p class="about-text">
+            Join 60,000+ product managers receiving monthly updates on:
+          </p>
+          <div class="checklist">
+            <div class="item">
+              <img
+                src="https://res.cloudinary.com/dvydugv8v/image/upload/v1692656022/newsletter-sign-up/icon-list_kctddu.svg"
+                alt="icon"
+                class="tick"
+              />
+              <p class="checklist-text">
+                Product discovery and building what matters
+              </p>
+            </div>
+            <div class="item">
+              <img
+                src="https://res.cloudinary.com/dvydugv8v/image/upload/v1692656022/newsletter-sign-up/icon-list_kctddu.svg"
+                alt="icon"
+                class="tick"
+              />
+              <p class="checklist-text">
+                Measuring to ensure updates are a success
+              </p>
+            </div>
+            <div class="item">
+              <img
+                src="https://res.cloudinary.com/dvydugv8v/image/upload/v1692656022/newsletter-sign-up/icon-list_kctddu.svg"
+                alt="icon"
+                class="tick"
+              />
+              <p class="checklist-text">And much more!</p>
+            </div>
+          </div>
+          <div class="email-input">
+            <div class="email-address">
+              <h2 class="email">Email address</h2>
+              <h2 class="invalid-email">Valid email required</h2>
+            </div>
+            <input
+              type="email"
+              placeholder="email@company.com"
+              class="input-email"
+            />
+            <button class="btn Subscribe-btn">
+              Subscribe to monthly newsletter
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Sign-up form end -->
+
+    <!-- Success message start -->
+    <section class="success-message">
+      <div class="container success-container">
+        <img
+          src="https://res.cloudinary.com/dvydugv8v/image/upload/v1692656022/newsletter-sign-up/icon-success_hny4zv.svg"
+          alt="icon"
+          class="success-tick"
+        />
+        <h1 class="heading">Thanks for subscribing!</h1>
+        <p class="about-text">
+          A confirmation email has been sent to
+          <span class="user-email">ash@loremcompany.com</span>. Please open it
+          and click the button inside to confirm your subscription.
+        </p>
+        <button class="btn dismiss-btn">Dismiss message</button>
+      </div>
+    </section>
+
+    <!-- Success message end -->
+  </body>
+</html>
